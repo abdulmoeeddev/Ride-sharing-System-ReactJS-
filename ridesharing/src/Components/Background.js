@@ -40,3 +40,29 @@ const stylePB = {
     margin: '0'
 };
 
+const backgroundImage = {
+    backgroundImage: `url(${Image})`,
+    height: '500px',
+    width: '65%',
+};
+
+const SvgIconExampleSimple = () => (
+    <div>
+        <div  style={styleDiv}>
+            <div style={styleTextDiv}>
+                <div style={style}>
+                <p style={stylePB}>Ride Sharing Website</p>
+                    <p style={stylePA}>Chalo Chalo</p>
+                    <p style={stylePB}>Moeed Kay Sang</p>
+                    <div>
+                    <DriverSignUpHome />
+                    </div>        
+                </div>
+            </div>
+        </div>
+        <div style={backgroundImage}>
+        </div>
+    </div>
+  );
+
+  export default SvgIconExampleSimple;
