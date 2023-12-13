@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { toast } from "react-toastify";
-
+import API from "../API";
 const RequestRides = ({
   id,
   goingfrom,

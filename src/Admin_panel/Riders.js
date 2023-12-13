@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import UserCard from "./UserCard";
 import { toast } from "react-toastify";
-
+import API from "../API";
 const Riders = () => {
   const [riders, setRiders] = useState([]);
   const [search, setSearch] = useState("");
